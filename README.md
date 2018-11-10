@@ -7,3 +7,6 @@ I'm simply using Mask-RCNN model for Instance Segmentation. And then adding blur
 you have to install all depedancy if you want to run it by yourself.
 
 and also have to download this weights of mask-rcnn [download page (use V2 coco)](https://github.com/matterport/Mask_RCNN/releases) and put it in the main folder.
+
+Code I will uploading soon.
+<br><img src="demo-potrait-effect.png" style="width:auto ; height: auto; margin-left: 50px; " /> <br>
