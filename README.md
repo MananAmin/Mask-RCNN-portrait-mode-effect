@@ -4,7 +4,7 @@ Original [Mask-RCNN](https://github.com/matterport/Mask_RCNN) is mainly used in 
 I'm simply using Mask-RCNN model for Instance Segmentation. And then adding blur effect on background.
 (note: keep only main person (person with maximum area covered in image) if there are multiple)
 
-and also have to download this weights of mask-rcnn [download page (use V2 coco)](https://github.com/matterport/Mask_RCNN/releases) and put it in the main folder.
+For download this weights of mask-rcnn [download page (use V2 coco)](https://github.com/matterport/Mask_RCNN/releases) and put it in the main folder.
 
 Intensity of blur can be change: (input from user)
 
