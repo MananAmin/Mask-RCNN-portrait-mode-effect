@@ -12,7 +12,7 @@ original_image = input("Enter image name (put it in current folder)  : ")
 
 # Use OpenCV to read the original image
 image = cv2.imread(original_image)
-intent= int(input("Input intentsity of Blur no between 11 to 50 :"))
+intent= int(input("Input intentsity of Blur no between 1 to 50(only odd no) :"))
 
 
 print("Read original image successfully! The original image shape is:")
@@ -24,7 +24,8 @@ k = cv2.waitKey(0)
 if k == 27:                 
     cv2.destroyAllWindows()
 elif k == ord('s'):        
-    cv2.imwrite('blur_image.jpg', blur)
+    name2 = os.path.splitext(original_image)[0]+"_blur_image.jpg"
+	cv2.imwrite(name2, blur)
     cv2.destroyAllWindows()
 
 
@@ -148,8 +149,8 @@ def display_instances(image, boxes, masks, ids, names, scores):
             continue
 
         # apply mask for the image
-        save1 = apply_mask(image, mask)
-        save2 = apply_mask2(image,mask)
+    save1 = apply_mask(image, mask)
+    save2 = apply_mask2(image,mask)
     return save1,save2
 
 
@@ -172,7 +173,8 @@ k = cv2.waitKey(0)
 if k == 27:                 
     cv2.destroyAllWindows()
 elif k == ord('s'):        
-    cv2.imwrite('potrait_image.jpg', frame1)
+    name = os.path.splitext(original_image)[0]+"_potrait_image.jpg"
+	cv2.imwrite(name,frame1)
     cv2.destroyAllWindows()
 
 
@@ -183,7 +185,8 @@ k = cv2.waitKey(0)
 if k == 27:                 
     cv2.destroyAllWindows()
 elif k == ord('s'):        
-    cv2.imwrite('blur_person_image.jpg', frame2)
+    name1 = os.path.splitext(original_image)[0]+"_blur_person_image.jpg"  
+	cv2.imwrite(name1,frame2)
     cv2.destroyAllWindows()
 
 
