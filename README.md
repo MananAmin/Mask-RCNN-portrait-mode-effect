@@ -10,11 +10,12 @@ Intensity of blur can be change: (input from user)
 
 Some Result
 
-<br><img src="ss1.png" style="width:auto ; height: auto; margin-left: 50px; " /> <br>
+<br><img src="demo1.png" style="width:auto ; height: auto; margin-left: 50px; " /> <br>
 
-And also blur person 
 
-<br><img src="ss2.png" style="width:auto ; height: auto; margin-left: 50px; " /> <br>
+<br><img src="demo2.png" style="width:auto ; height: auto; margin-left: 50px; " /> <br>
+
+<br><img src="demo3.png" style="width:auto ; height: auto; margin-left: 50px; " /> <br>
 
 
 # Credits:
