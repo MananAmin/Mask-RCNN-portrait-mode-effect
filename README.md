@@ -21,3 +21,6 @@ Some Result
 # Credits:
 
 [Mask-RCNN](https://github.com/matterport/Mask_RCNN) 
+
+<br>
+P.S. : generally for portrait effect we use image depth information. we can also make model for that to distinguish between object and background but still .. with strong segmentation models we can try this as byproduct with other applications.
